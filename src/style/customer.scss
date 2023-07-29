@@ -1,0 +1,82 @@
+// .el-menu-item .el-icon i {
+//   width: 20px;
+//   text-align: center;
+//   font-size: 16px;
+// }
+.el-card {
+  .footer-button {
+    float: right;
+  }
+}
+.filter-item {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.el-dialog__body {
+  overflow: auto !important;
+}
+.dialog-main-tree {
+  max-height: 400px !important;
+  overflow-y: auto !important;
+}
+.el-table th {
+  word-break: break-word !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  background-color: #fafafa !important;
+}
+.avue-crud__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.demo-table-expand {
+  font-size: 0;
+}
+.demo-table-expand label {
+  width: 70px;
+  color: #99a9bf;
+}
+.demo-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+.demo-table-expand span {
+  display: block;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.form-button {
+  float: right;
+}
+.upload-null-list {
+  ul {
+    margin: 0;
+  }
+}
+
+.ui-fas {
+  .el-input-group__prepend {
+    border: 0px solid #dcdfe6;
+  }
+}
+
+.pagination-container {
+  float: right;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 10px 20px !important;
+}
